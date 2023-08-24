@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.body{
+
+}
+
+
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+    animation: header 2s cubic-bezier(0.445, 0.05, 0.55, 0.95) alternate;
+}
+
+@keyframes header{
+    0%{
+transform: translateY(-100px);
+    }
+
+    100%{
+transform: translateY(0);
+    }
+}
+
+.box__nav {
+    cursor: pointer;
+    width: 1180px;
+    margin: 0 auto;
+    color: black;
+    padding: 50px 10px;
+    font-size: 14px;
+}
+
+.box__logo {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16.391px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+
+.box__item{
+    width: 250px;
+    padding: 20px;
+    color: #585858;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+
+.header__buttons {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.header__login {
+    cursor: pointer;
+    color: #000;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px;
+    border-radius: 12px;
+    transition: 0.7s;
+}
+
+.header__sign {
+    cursor: pointer;
+    padding: 11px 18px;
+    border-radius: 12px;
+    background: #2B788B;
+    color: #FFF;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+
+
+
+
+/* MAIN */
+
+.main{
+
+}
+
+
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1000px;
+    height: 416px;
+}
+
+.block-1 {
+    width: 398px;
+    height: 416px;
+    animation: block1 4s cubic-bezier(0.445, 0.05, 0.55, 0.95) alternate;
+}
+
+@keyframes block1{
+    0%{
+        transform: translateX(-900px);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+
+.block-1__info {
+    width: 194px;
+    height: 14px;
+    color: #2B788B;
+    font-size: 14px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+}
+
+.block-1__info-2 {
+    width: 389px;
+    height: 144px;
+    margin-top: 20px;
+    color: #000;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 48px */
+    letter-spacing: 1px;
+}
+
+
+.block-1__info-3 {
+    width: 325px;
+    height: 45px;
+    margin-top: 30px;
+    color: #585858;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    letter-spacing: -0.64px;
+}
+
+
+.block-1__buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 207px;
+    height: 36px;
+}
+
+.block-1__sign {
+    cursor: pointer;
+    border-radius: 14px;
+    padding: 10px;
+    color: #000;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.56px;
+}
+
+.block-1__learn {
+    cursor: pointer;
+    color: #2B788B;
+    padding: 18px;
+    display: flex;
+    height: 36px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+    padding: 4px 18px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #C3DCE3;
+}
+
+
+.block-1__images {
+    margin-top: 40px;
+}
+
+.block-1__img{
+}
+
+.block-1__img:nth-child(2){
+    margin-left: 40px;
+}
+
+
+.block-2 {
+    animation: block2 4s cubic-bezier(0.445, 0.05, 0.55, 0.95) alternate;
+}
+
+@keyframes block2{
+    0%{
+transform: translateX(900px);
+    }
+
+    100%{
+transform: translateX(0);
+    }
+}
+
